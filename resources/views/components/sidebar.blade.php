@@ -4,8 +4,8 @@
         <hr>
         <div class="flex flex-col my-4">
             <a href="/" class="px-4 py-2 rounded-xl hover:bg-base-200">Dashboard</a>
-            <a href="/task" class="px-4 py-2 rounded-xl hover:bg-base-200">My Task</a>
-            <a href="/history" class="px-4 py-2 rounded-xl hover:bg-base-200">History</a>
+            <a href="/task" class="px-4 py-2 rounded-xl hover:bg-base-200">Tugas Saya</a>
+            <a href="/history" class="px-4 py-2 rounded-xl hover:bg-base-200">Histori Tugas</a>
         </div>
     </div>
 </div>

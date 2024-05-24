@@ -3,7 +3,9 @@
         <x-sidebar />
         <div class="w-full">
             <x-navbar />
-            <div class="px-8 py-6">{{$slot}}</div>
+            <div class="px-8 py-6">
+                {{$slot}}
+            </div>
         </div>
     </div>
 </x-root-layout>
