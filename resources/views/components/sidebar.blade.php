@@ -4,8 +4,11 @@
         <hr>
         <div class="flex flex-col my-4">
             <a href="/" class="px-4 py-2 rounded-xl hover:bg-base-200">Dashboard</a>
+            @if (Auth::user()->role == 1)
+            <a href="/users" class="px-4 py-2 rounded-xl hover:bg-base-200">Data User</a>
+            @endif
             <a href="/task" class="px-4 py-2 rounded-xl hover:bg-base-200">Tugas Saya</a>
-            <a href="/history" class="px-4 py-2 rounded-xl hover:bg-base-200">Histori Tugas</a>
+            {{-- <a href="/history" class="px-4 py-2 rounded-xl hover:bg-base-200">Histori Tugas</a> --}}
         </div>
     </div>
 </div>

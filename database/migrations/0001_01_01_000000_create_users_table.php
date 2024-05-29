@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->integer('role');
-            $table->integer('status');
+            $table->integer('del');
             $table->timestamps();
         });
 
